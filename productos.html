@@ -26,7 +26,7 @@ https://templatemo.com/tm-559-zay-shop
 -->
 </head>
 
-<body>
+<body class="">
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
@@ -100,7 +100,7 @@ https://templatemo.com/tm-559-zay-shop
                         data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
                     </a>-->
-                    <a class="nav-icon position-relative text-decoration-none" href="carrito.html">
+                    <a class="nav-icon position-relative text-decoration-none" href="cart.html">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <span
                             class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
@@ -137,6 +137,54 @@ https://templatemo.com/tm-559-zay-shop
 
 
     <!-- Start Content -->
+    <div class="container">
+        <header>
+            <div class="title">Productos</div>
+            <div class="icon-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
+                </svg>
+                <span>0</span>
+            </div>
+        </header>
+    
+        <div class="listProduct">
+            <div class="item">
+                <img src="assets/img/barf guau logo.png" alt="">
+                <h2>BARF Guau! Res 1Kg</h2>
+                <div class="precio">Bs 40</div>
+                <button class="addCart">
+                     Agregar
+                </button>
+            </div> 
+        </div>
+    </div>
+    <div class="cartTab">
+        <h1>Mi Carro</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="assets/img/barf guau logo.png" alt="">
+                </div>
+                <div class="name">
+                    BARF Guau! Res 1Kg
+                </div>
+                <div class="totalPrice">
+                    Bs. 40
+                </div>
+                <div class="quantity">
+                    <span class="minus">-</span>
+                    <span>1</span>
+                    <span class="plus">+</span>
+                </div>
+            </div>
+        </div>
+        <div class="btn">
+            <button class="close">Cerrar</button>
+            <button class="checkOut">Ir a Pagar</button>
+        </div>
+    </div>
+
     <div class="container py-5">
         <div class="row">
 
@@ -175,6 +223,8 @@ https://templatemo.com/tm-559-zay-shop
                     </li>
                 </ul>
             </div>
+
+            
 
             <div class="col-lg-9">
              <!--   <div class="row">
@@ -791,6 +841,7 @@ https://templatemo.com/tm-559-zay-shop
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/app.js"></script>
     <!-- End Script -->
 </body>
 
