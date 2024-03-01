@@ -18,13 +18,13 @@ closeCart.addEventListener('click', () => {
 
     const addDataToHTML = () => {
     // remove datas default from HTML
-
+        listProductHTML.innerHTML = '';
         // add new datas
-        if(products.length > 0) // if has data
+        if(listProducts.length > 0) // if has data
         {
-            products.forEach(product => {
+            listProducts.forEach(product => {
                 let newProduct = document.createElement('div');
-                newProduct.dataset.id = product.id;
+                //newProduct.dataset.id = product.id;
                 newProduct.classList.add('item');
                 newProduct.innerHTML = 
                 `<img src="${product.image}" alt="">
@@ -135,8 +135,8 @@ const initApp = () => {
     .then(response => response.json())
     .then(data => {
         listProducts = data;
-        console.log(listProducts);
-        //addDataToHTML();
+        //console.log(listProducts);
+        addDataToHTML();
 
         // get data cart from memory
         //if(localStorage.getItem('cart')){
