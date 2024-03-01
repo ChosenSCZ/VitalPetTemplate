@@ -75,24 +75,24 @@
         "id": 13,
         "name": "GP01 GummyPet P 1Bolsa",
         "price": 30,
-        "image": "assets/img/gummypet1.png"
+        "image": "assets/img/gummypet1.jpg"
     },
     {
         "id": 14,
         "name": "GP02 GummyPet G 1Bolsa",
         "price": 30,
-        "image": "assets/img/gummypet1.png"
+        "image": "assets/img/gummypet1.jpg"
     },
     {
         "id": 15,
         "name": "GP03 GummyPet P 4Bolsas",
         "price": 90,
-        "image": "assets/img/gummypet1.png"
+        "image": "assets/img/gummypet1.jpg"
     },
     {
         "id": 16,
         "name": "GP04 GummyPet G 4Bolsas",
         "price": 90,
-        "image": "assets/img/gummypet1.png"
+        "image": "assets/img/gummypet1.jpg"
     }
 ]
