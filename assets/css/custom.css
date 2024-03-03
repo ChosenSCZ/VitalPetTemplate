@@ -11,9 +11,10 @@ body{
 .container{
     width: 900px;
     margin: auto;
-    max-width: 90vw;
+    max-width: auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     transition: transform .5s;
 }
 svg{
