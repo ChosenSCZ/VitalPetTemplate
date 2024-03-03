@@ -1,97 +1,97 @@
 [
     {
         "id": 1,
-        "name": "BG01 BARF Guau! Res 1Kg",
+        "name": "BARF Guau! Res 1Kg",
         "price": 40,
         "image": "assets/img/barf guau logo.png"
     },  
     {
         "id": 2,
-        "name": "BG02 BARF Guau! Res 5Kg",
+        "name": "BARF Guau! Res 5Kg",
         "price": 195,
         "image": "assets/img/barf guau logo.png"
     },  
     {
         "id": 3,
-        "name": "BG03 BARF Guau! Res 10Kg",
+        "name": "BARF Guau! Res 10Kg",
         "price": 380,
         "image": "assets/img/barf guau logo.png"
     },
     {
         "id": 4,
-        "name": "BG04 BARF Guau! Pollo 1Kg",
+        "name": "BARF Guau! Pollo 1Kg",
         "price": 38,
         "image": "assets/img/barf guau logo.png"
     },
     {
         "id": 5,
-        "name": "BG05 BARF Guau! Pollo 5Kg",
+        "name": "BARF Guau! Pollo 5Kg",
         "price": 185,
         "image": "assets/img/barf guau logo.png"
     },
     {
         "id": 6,
-        "name": "BG06 BARF Guau! Pollo 10Kg",
+        "name": "BARF Guau! Pollo 10Kg",
         "price": 360,
         "image": "assets/img/barf guau logo.png"
     },
     {
         "id": 7,
-        "name": "BM01 BARF Miau! Res 1Kg",
+        "name": "BARF Miau! Res 1Kg",
         "price": 40,
         "image": "assets/img/barf miau logo.png"
     },
     {
         "id": 8,
-        "name": "BM02 BARF Miau! Res 3Kg",
+        "name": "BARF Miau! Res 3Kg",
         "price": 115,
         "image": "assets/img/barf miau logo.png"
     },
     {
         "id": 9,
-        "name": "BM03 BARF Miau! Res 5Kg",
+        "name": "BARF Miau! Res 5Kg",
         "price": 190,
         "image": "assets/img/barf miau logo.png"
     },
     {
         "id": 10,
-        "name": "BM04 BARF Miau! Pollo 1Kg",
+        "name": "BARF Miau! Pollo 1Kg",
         "price": 38,
         "image": "assets/img/barf miau logo.png"
     },
     {
         "id": 11,
-        "name": "BM05 BARF Miau! Pollo 3Kg",
+        "name": "BARF Miau! Pollo 3Kg",
         "price": 110,
         "image": "assets/img/barf miau logo.png"
     },
     {
         "id": 12,
-        "name": "BM06 BARF Miau! Pollo 5Kg",
+        "name": "BARF Miau! Pollo 5Kg",
         "price": 180,
         "image": "assets/img/barf miau logo.png"
     },
     {
         "id": 13,
-        "name": "GP01 GummyPet P 1Bolsa",
+        "name": "GummyPet P 1Bolsa",
         "price": 30,
         "image": "assets/img/gummypet1.jpg"
     },
     {
         "id": 14,
-        "name": "GP02 GummyPet G 1Bolsa",
+        "name": "GummyPet G 1Bolsa",
         "price": 30,
         "image": "assets/img/gummypet1.jpg"
     },
     {
         "id": 15,
-        "name": "GP03 GummyPet P 4Bolsas",
+        "name": "GummyPet P 4Bolsas",
         "price": 90,
         "image": "assets/img/gummypet1.jpg"
     },
     {
         "id": 16,
-        "name": "GP04 GummyPet G 4Bolsas",
+        "name": "GummyPet G 4Bolsas",
         "price": 90,
         "image": "assets/img/gummypet1.jpg"
     }
