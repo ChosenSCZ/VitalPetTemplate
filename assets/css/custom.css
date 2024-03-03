@@ -51,6 +51,7 @@ header{
 }
 .listProduct .item{
     background-color: #EEEEE6;
+    padding: 50px;
     border-radius: 20px;
 }
 .listProduct .item img{
