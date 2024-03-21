@@ -6,10 +6,10 @@ Custom Css
 
 body, ul, li, p, a, label, input, div {
     font-family: "Poppins", sans-serif;
-    margin: 0;
+    /*margin: 0;*/
 }
 .container{
-    width: 900px;
+   /* width: 900px;*/
     margin: auto;
     max-width: auto;
     text-align: center;
