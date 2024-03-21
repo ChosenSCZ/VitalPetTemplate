@@ -23,7 +23,10 @@ ul {
     font-size: 18px !important;
     font-weight: 300 !important
 }
-
+header .title{
+    font-size: xx-large !important;
+    font-weight: 300 !important
+}
 .h1 {
     font-size: 48px !important;
     font-weight: 200 !important
@@ -31,7 +34,7 @@ ul {
 
 .h2 {
     font-size: 30px !important;
-    font-weight: 300
+    font-weight: 300 !important
 }
 
 .h3 {
@@ -270,8 +273,8 @@ ul {
 }
 
 @media (min-width:768px) {
-    #templatemo_main_nav .navbar-nav {
-        max-width: 450px
+    /*#templatemo_main_nav .navbar-nav {
+        max-width: 450px*/
     }
 }
 

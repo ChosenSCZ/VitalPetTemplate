@@ -34,6 +34,10 @@ body, ul, li, p, a, label, input, div {
   font-size: 18px !important;
   font-weight: 300 !important;
 }
+.header .title{
+    font-size: xx-large !important;
+    
+}
 .h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 48px !important;
@@ -69,7 +73,7 @@ body, ul, li, p, a, label, input, div {
 }
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
-#templatemo_nav_top * { font-size: .9em !important;}
+#templatemo_nav_top * { font-size: 1em !important;}
 #templatemo_main_nav a { color: #212934;}
 #templatemo_main_nav a:hover { color: #ff4d4d;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
@@ -172,13 +176,12 @@ body, ul, li, p, a, label, input, div {
 }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-  #templatemo_main_nav .navbar-nav {max-width: 450px;}
- }
+/*@media (min-width: 768px) {
+ #templatemo_main_nav .navbar-nav {max-width: 450px;}
+ }*/
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  #templatemo_main_nav .navbar-nav {max-width: 550px;}
   #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
   .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
   .product-wap .product-color-dot {

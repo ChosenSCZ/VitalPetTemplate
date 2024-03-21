@@ -40,29 +40,29 @@ const addDataToHTML = () => {
 listProductHTML.addEventListener('click', (event) => {
     let positionClick = event.target;
     if(positionClick.classList.contains('addCart')){
-            //let id_product = positionClick.parentElement.dataset.id;
-            //addToCart(id_product);
+            let id_product = positionClick.parentElement.dataset.id;
+            addToCart(id_product);
             alert('1');
         }
     })
-//const addToCart = (product_id) => {
-    //let positionThisProductInCart = cart.findIndex((value) => value.product_id == product_id);
-    //if(cart.length <= 0){
-        //cart = [{
-            //product_id: product_id,
-            //quantity: 1
-        //}];
-    //}else if(positionThisProductInCart < 0){
-        //cart.push({
-           // product_id: product_id,
-            //quantity: 1
-        //});
-    //}else{
-        //cart[positionThisProductInCart].quantity = cart[positionThisProductInCart].quantity + 1;
-    //}
-    //addCartToHTML();
-    //addCartToMemory();
-//}
+const addToCart = (product_id) => {
+    let positionThisProductInCart = cart.findIndex((value) => value.product_id == product_id);
+    if(cart.length <= 0){
+        cart = [{
+            product_id: product_id,
+            quantity: 1
+        }];
+    }else if(positionThisProductInCart < 0){
+        cart.push({
+            product_id: product_id,
+            quantity: 1
+        });
+    }else{
+        cart[positionThisProductInCart].quantity = cart[positionThisProductInCart].quantity + 1;
+    }
+    addCartToHTML();
+    addCartToMemory();
+}
 //const addCartToMemory = () => {
    // localStorage.setItem('cart', JSON.stringify(cart));
 //}
