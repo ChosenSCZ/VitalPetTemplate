@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>VitalPet Bolivia - Productos</title>
+    <title>VitalPet Bolivia</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -26,7 +26,7 @@ https://templatemo.com/tm-559-zay-shop
 -->
 </head>
 
-<body class="showCart">
+<body>
     <!-- Start Top Nav -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
         <div class="container text-light">
@@ -56,22 +56,30 @@ https://templatemo.com/tm-559-zay-shop
 
 
     <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center row-cols-2">
-
-            <a class="figure-image h1 align-self-center" href="inicio.html">
-                <img class="img-fluid" src="./assets/img/logo vitalpet LETRAS copia.png" alt="">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+        <div class="container align-items-center justify-content-between">
+            <a class=" align-self-center mx-lg-auto" href="inicio.html">
+                <img src="./assets/img/logo vitalpet LETRAS copia.png"  height="50" alt="">
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+            <div class=" collapse navbar-collapse  d-lg-flex " id="templatemo_main_nav">
+                <div class=" flex-fill navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav d-flex flex-fill justify-content-between ">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="inicio.html">
+                                Inicio
+                                <ul class="collapse list-unstyled">
+                                    <li><a class="text-decoration-none" href="#beneficios">Beneficios</a></li>
+                                    <li><a class="text-decoration-none" href="#beneficios">Beneficios</a></li>
+                                </ul>
+                            </a>
+                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="inicio.html">Inicio</a>
+                            <a class="nav-link" href="BARF.html">BARF?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -82,15 +90,22 @@ https://templatemo.com/tm-559-zay-shop
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li>
+                                <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </li>
                     </ul>
                 </div>
-                <!--<div class="icon-cart">
-                    <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.3L19 7H7.3"/>
-                    </svg>
-                    <span>0</span>
-                </div>-->
-                <div class="navbar align-self-center d-flex">
+                <!--<div class="navbar align-self-center d-flex">
                     <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
                         <div class="input-group">
                             <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
@@ -99,21 +114,21 @@ https://templatemo.com/tm-559-zay-shop
                             </div>
                         </div>
                     </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal"
+                    <!--<a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal"
                         data-bs-target="#templatemo_search">
                         <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="cart.html">
+                    </a>-->
+                    <!--<a class="nav-icon position-relative text-decoration-none" href="cart.html">
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <span
                             class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                    <!--<a class="nav-icon position-relative text-decoration-none" href="#">
                         <i class="fa fa-fw fa-user text-dark mr-3"></i>
                         <span
                             class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
-                </div>
+                    </a>-->
+                
             </div>
         </div>
     </nav>
@@ -137,9 +152,11 @@ https://templatemo.com/tm-559-zay-shop
     </div>-->
 
 
+    <iframe src="/add_cart_v4-main/add_cart_v4-main/index.html">
 
+    </iframe>
     <!-- Start Content -->
-            <div class="container">
+           <!-- <div class="container">
                 <header>
                     <div class="title-container">Productos</div>
                     <div class="icon-cart">

@@ -157,6 +157,11 @@ body.showCart .cartTab{
 .listCart::-webkit-scrollbar{
     width: 0;
 }
+
+iframe{
+    width: 100%;
+    height: 400px;
+}
 @media only screen and (max-width: 992px) {
     .listProduct{
         grid-template-columns: repeat(3, 1fr);
@@ -170,3 +175,4 @@ body.showCart .cartTab{
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
